@@ -6,22 +6,13 @@ using UnityEngine.SceneManagement;
 public class TriggerScene : MonoBehaviour
 {
     public int level;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Nextlvl")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            PlayerPrefs.SetInt("levelComplite", PlayerPrefs.GetInt("levelComplite") + 1);
+            Debug.Log(PlayerPrefs.GetInt("levelComplite"));
         }
     }
 }
