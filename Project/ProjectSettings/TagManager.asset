@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Nextlvl
   - Acid
+  - NPC
   layers:
   - Default
   - TransparentFX
