@@ -10,7 +10,6 @@ public class LoadScen : MonoBehaviour
     }
     
     public void startGame(){
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(PlayerPrefs.GetInt("levelComplite") + 2);
     }
-    
 }

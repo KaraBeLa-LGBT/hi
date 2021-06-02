@@ -734,8 +734,6 @@ GameObject:
   - component: {fileID: 1281046414}
   - component: {fileID: 1281046413}
   - component: {fileID: 1281046412}
-  - component: {fileID: 1281046417}
-  - component: {fileID: 1281046416}
   - component: {fileID: 1281046415}
   m_Layer: 0
   m_Name: EventSystem
@@ -802,30 +800,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f760e3eafa51ec4983a77e77dbf65c9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1281046416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1281046411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cd14ddb12a1e2945ad870811dd299f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1281046417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1281046411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf3d844652683f644b1fdd59a49e0e63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1852653817
