@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class OpenLevel : MonoBehaviour
 {
-    public void loadLevel(int idLevel){
-        SceneManager.LoadScene(idLevel);
+    public void loadLevel(int id){
+        SceneManager.LoadScene(id);
     }
 }

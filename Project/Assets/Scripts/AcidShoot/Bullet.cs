@@ -15,13 +15,4 @@ public class Bullet : MonoBehaviour
         rigidbody2D.velocity = new Vector2(transform2.position.x - transform1.position.x,
                                         transform2.position.y - transform1.position.y);
     }
-
-    private void OnTriggerEnter2D(Collider2D other) {
-        // if (other.name.Equals("Player")){
-            
-        // } else
-        //     Destroy(other.gameObject);
-    }
-
- 
 }
