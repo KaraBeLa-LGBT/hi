@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Project/Project/Assets/Sprites/nps2.png.meta
 guid: 18d59bbdab4c40b449f313934a8abea7
+=======
+guid: 1c70673a69f977c48beaaceac422d8d4
+>>>>>>> 28.05:Project/Assets/Sprites/nps2.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
