@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class TriggerScene : MonoBehaviour
 {
+    /*void Start() {
+        PlayerPrefs.SetInt("levelComplite", 0);
+    }*/
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player") // Если игрок вызвал тригер сменить уровень на след.
