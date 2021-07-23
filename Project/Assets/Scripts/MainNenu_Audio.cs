@@ -11,13 +11,13 @@ public class MainNenu_Audio : MonoBehaviour
 
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     void Awake()

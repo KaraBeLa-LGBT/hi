@@ -19,7 +19,7 @@ public class PlayerMove : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-      //  animator = GetComponent<Animator>();
+        //  animator = GetComponent<Animator>();
     }
 
 
@@ -45,7 +45,7 @@ public class PlayerMove : MonoBehaviour
             footsteps.Play();
         else if (Input.GetKeyUp(KeyCode.D))
             footsteps.Stop();
-    
+
 
 
     }
