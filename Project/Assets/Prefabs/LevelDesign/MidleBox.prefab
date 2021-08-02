@@ -12,10 +12,15 @@ GameObject:
   - component: {fileID: 7896026676147943153}
   - component: {fileID: 7896026676147943155}
   - component: {fileID: 7896026676147943154}
+
   - component: {fileID: -5288035391804856014}
   - component: {fileID: 662778262466797647}
   m_Layer: 0
   m_Name: MidleBox
+=======
+  m_Layer: 0
+  m_Name: Box
+
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -125,6 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 40
+
 --- !u!114 &-5288035391804856014
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,3 +170,5 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+=======
+

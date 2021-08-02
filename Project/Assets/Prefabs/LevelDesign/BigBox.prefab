@@ -13,10 +13,15 @@ GameObject:
   - component: {fileID: 8784461431924737028}
   - component: {fileID: 8784461431924737051}
   - component: {fileID: 8784461431924737030}
+
   - component: {fileID: 337407814775678262}
   - component: {fileID: -3312719953574261922}
   m_Layer: 0
   m_Name: BigBox
+=======
+  m_Layer: 0
+  m_Name: Box (2)
+
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -147,6 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 40
+
 --- !u!114 &337407814775678262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,3 +192,5 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+=======
+

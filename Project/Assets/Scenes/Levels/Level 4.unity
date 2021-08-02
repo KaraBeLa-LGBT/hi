@@ -138,7 +138,10 @@ GameObject:
   - component: {fileID: 228319795}
   - component: {fileID: 228319794}
   - component: {fileID: 228319793}
+
   - component: {fileID: 228319800}
+=======
+
   m_Layer: 0
   m_Name: pers_90
   m_TagString: Player
@@ -158,6 +161,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ffe78f1446b9674daf7a6c59b62842e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+
+=======
+  level: 4
+
 --- !u!114 &228319794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,6 +177,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b2bdade8b6d0d04b8935e57927ebf55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+
+=======
+  lenght_laser: 20
+
 --- !u!114 &228319795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,7 +194,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+
   footsteps: {fileID: 228319800}
+=======
+
 --- !u!61 &228319796
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -296,6 +310,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+
 --- !u!82 &228319800
 AudioSource:
   m_ObjectHideFlags: 0
@@ -519,6 +534,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+
 --- !u!1 &807903639
 GameObject:
   m_ObjectHideFlags: 0
