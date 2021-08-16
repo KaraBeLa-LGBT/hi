@@ -13,10 +13,8 @@ GameObject:
   - component: {fileID: 6602900944689496084}
   - component: {fileID: 6602900944689496085}
   - component: {fileID: 6602900944689496082}
-
   - component: {fileID: -5492466693805736735}
   - component: {fileID: -1840140695944371482}
-
   m_Layer: 0
   m_Name: SmallBox
   m_TagString: Untagged
@@ -149,7 +147,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 30
-
 --- !u!114 &-5492466693805736735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,5 +186,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
-=======
-
