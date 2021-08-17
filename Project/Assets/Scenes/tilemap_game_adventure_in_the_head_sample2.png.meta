@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: faca6f6a8edcdd74194ef6e42d71ecd8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8670302265255465950
+    second: tilemap_game_adventure_in_the_head_sample2_0
+  - first:
+      213: -5015171392135594518
+    second: tilemap_game_adventure_in_the_head_sample2_1
+  - first:
+      213: 7387730654339253365
+    second: tilemap_game_adventure_in_the_head_sample2_2
+  - first:
+      213: 4235734100024524416
+    second: tilemap_game_adventure_in_the_head_sample2_3
+  - first:
+      213: -6875161453741779624
+    second: tilemap_game_adventure_in_the_head_sample2_4
+  - first:
+      213: -8258207887958428967
+    second: tilemap_game_adventure_in_the_head_sample2_5
+  - first:
+      213: 2845173847949497924
+    second: tilemap_game_adventure_in_the_head_sample2_6
+  - first:
+      213: 7373513046826819335
+    second: tilemap_game_adventure_in_the_head_sample2_7
+  - first:
+      213: 6808094323528340207
+    second: tilemap_game_adventure_in_the_head_sample2_8
+  - first:
+      213: -1966801232975635997
+    second: tilemap_game_adventure_in_the_head_sample2_9
+  - first:
+      213: 7630729012905132564
+    second: tilemap_game_adventure_in_the_head_sample2_10
+  - first:
+      213: -2663286769104818152
+    second: tilemap_game_adventure_in_the_head_sample2_11
+  - first:
+      213: 1747753859587373026
+    second: tilemap_game_adventure_in_the_head_sample2_12
+  - first:
+      213: 7388957811926115495
+    second: tilemap_game_adventure_in_the_head_sample2_13
+  - first:
+      213: -6721675489348962643
+    second: tilemap_game_adventure_in_the_head_sample2_14
+  - first:
+      213: 8540154664708683439
+    second: tilemap_game_adventure_in_the_head_sample2_15
+  - first:
+      213: -935650918082636345
+    second: tilemap_game_adventure_in_the_head_sample2_16
+  - first:
+      213: -1289912032236780062
+    second: tilemap_game_adventure_in_the_head_sample2_17
+  - first:
+      213: -6615500502608879617
+    second: tilemap_game_adventure_in_the_head_sample2_18
+  - first:
+      213: -1862094180113104349
+    second: tilemap_game_adventure_in_the_head_sample2_19
+  - first:
+      213: -3166912398511935407
+    second: tilemap_game_adventure_in_the_head_sample2_20
+  - first:
+      213: 7772902595714559150
+    second: tilemap_game_adventure_in_the_head_sample2_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
