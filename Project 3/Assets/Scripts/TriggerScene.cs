@@ -11,8 +11,8 @@ public class TriggerScene : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); // Загружает следующую сцену.
 
-            // Если номер уровня < количества пройденных.
-            if ((SceneManager.GetActiveScene().buildIndex - SceneManager.GetSceneByName("Level 1").buildIndex) >= PlayerPrefs.GetInt("levelComplite"))
+            // Если номер уровня < количества пройденных. // 2ка используется как id самого первого уровня.
+            if ((SceneManager.GetActiveScene().buildIndex - 2) >= PlayerPrefs.GetInt("levelComplite"))
                 PlayerPrefs.SetInt("levelComplite", PlayerPrefs.GetInt("levelComplite") + 1); // Прибавить к пройденным + 1
         }
     }
