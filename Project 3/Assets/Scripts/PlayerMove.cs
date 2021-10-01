@@ -32,6 +32,7 @@ public class PlayerMove : MonoBehaviour
         else if (controlType == ControlType.Androud)
         {
             moveInput = new Vector2(joystick.Horizontal, joystick.Vertical);
+ 
         }
 
         moveVelocity = moveInput.normalized * speed;
@@ -45,6 +46,11 @@ public class PlayerMove : MonoBehaviour
             Flip();
         }
 
+       /* if (Input.GetKeyDown(KeyCode.Stick))
+            footsteps.Play();
+
+        else if (Input.GetKeyUp(KeyCode.Joystick1Button0))
+            footsteps.Stop();*/
         /* Transform.position = Vector2
          if(Input.GetKeyDown(KeyCode.W)
          {

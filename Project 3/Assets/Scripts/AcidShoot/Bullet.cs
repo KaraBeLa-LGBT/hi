@@ -9,10 +9,14 @@ public class Bullet : MonoBehaviour
 
     public Transform transform1;
     public Transform transform2;
-    private int len = 0;
     void Start()
     {
-        rigidbody2D.velocity = new Vector2(transform2.position.x - transform1.position.x,
-                                        transform2.position.y - transform1.position.y);
+        //rigidbody2D.velocity = new Vector2(transform2.position.x - transform1.position.x,
+        //                                transform2.position.y - transform1.position.y);
+
+        rigidbody2D.AddForce(new Vector2((transform2.position.x - transform1.position.x) * speed,
+                                        (transform2.position.y - transform1.position.y) * speed));
+
     }
+
 }

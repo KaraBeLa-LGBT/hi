@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class AcidWeapon : MonoBehaviour
 {
-    private int i = 0;
-    void Update()
+    public float time;
+    private float i;
+
+    private void FixedUpdate()
     {
-        if (i == 40){
+        if (i >= time)
+        {
             Shoot();
             i = 0;
         }
         else
-            i++;
+            i += Time.deltaTime;
     }
 
     public Transform firePoint;
