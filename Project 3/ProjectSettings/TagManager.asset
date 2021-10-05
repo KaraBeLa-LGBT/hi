@@ -7,6 +7,8 @@ TagManager:
   - Nextlvl
   - Acid
   - NPC
+  - key
+  - obj
   layers:
   - Default
   - TransparentFX

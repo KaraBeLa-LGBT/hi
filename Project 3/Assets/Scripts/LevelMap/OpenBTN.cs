@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class OpenBTN : MonoBehaviour
 {
     public int idLevel;
-    void Start()
+
+    private void Awake()
     {
         int i = PlayerPrefs.GetInt("levelComplite");
         Button btn = GetComponent<Button>();

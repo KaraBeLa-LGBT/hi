@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,7 +7,15 @@ using UnityEngine.SceneManagement;
 public class Health : MonoBehaviour
 {
     public int health = 0;
-    
+
+    private GameObject gameObjectCanvasLose;
+    private GameObject gameObjectCanvasMove;
+
+    private void Awake()
+    {
+        
+    }
+
     /*
     Применение: На все обьекты, сквозь которые не должна просто так проходить "кислота". (Стены, столы, стулья, NPC и т.п)
 
@@ -23,12 +32,10 @@ public class Health : MonoBehaviour
             
             if (gameObject.tag.Equals("NPC")) // Если пуля достонулась до игрока.
             {
-                /*
-                В дальшейшем открывать меню проигрыша.
-                С кнопками "Карта уровней" "В меню" "Переиграть"
-                */
 
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+                canvasList.canvasControll.SetActive(false);
+                canvasList.canvasLose.SetActive(true);
+
             } 
             else if (health == 0) // Если у обьекта 0 HP, разрушаем его.
             { 
